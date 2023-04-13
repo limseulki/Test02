@@ -37,7 +37,8 @@ public class Main3 {
                                     answer[i][j] = 'M';
                                 }
                                 // 그렇지 않으면 num을 더한 값을 출력
-                                else answer[i][j] += num;
+//                                else answer[i][j] += num;
+                                else answer[i][j] = Character.forDigit(sum, 10);
                             }
                         }
                     }

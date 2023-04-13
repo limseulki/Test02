@@ -16,7 +16,7 @@ public class Main2 {
                 answer += count;
             }
             // 그렇지 않으면 count 0으로 리셋하기
-            else if(s.charAt(i) == 'X') {
+            else {
                 count = 0;
             }
         }
